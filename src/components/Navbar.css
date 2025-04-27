@@ -74,9 +74,9 @@
 
 .bar {
   width: 25px;
-  height: 3px;
+  height: 2px;
   background-color: white;
-  margin: 4px 0;
+  margin: 3px 20px;
   transition: all 0.3s ease;
 }
 
@@ -98,8 +98,7 @@
     }
     .logo{
       width: 100%;
-      height: 40px;
-      padding-left: 80%;
+      height: 30px;
     }
   
     .nav-links.open {
@@ -113,7 +112,7 @@
     }
   
     .contact-btn {
-      display: none; /* Hide Contact button on mobile */
+      display:none; /* Hide Contact button on mobile */
     }
   }
   

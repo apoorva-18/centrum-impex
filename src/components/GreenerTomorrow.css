@@ -75,7 +75,7 @@
 /* Responsive */
 @media (max-width: 400px) {
   .column {
-    flex: 0 0 100%;
+    flex: 0 0 20%;
   }
   .bg-image{
     width: 468px;
@@ -83,11 +83,7 @@
   }
   
   .greener-card{
-    background: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(255,255,255,0.6));
-    backdrop-filter: blur(15px);
-    padding: 0px 20px;
     width: 100%;
-    border-radius: 1px;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+
   }
 }
