@@ -16,7 +16,7 @@ import EventsUpdates from './components/EventsUpdates';
 function App() {
   return (
     <>
-      <Navbar />
+      <Navbar/>
       <HeroSection />
       <Highlights />
       <AboutUs/>
