@@ -1,0 +1,91 @@
+.workwithus-section {
+    background: #fdf9f1;
+    padding: 70px 50px;
+    text-align: center;
+  }
+  
+  .workwithus-heading {
+    font-size: 3rem;
+    text-align: left;
+    color: #014d4f;
+    letter-spacing: 5px;
+    margin-bottom: 150px;
+  }
+  
+  .work-cards {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+  }
+  
+  .work-card {
+    background: transparent;
+    display: flex;
+    align-items: flex-start;
+    width: 400px;
+    text-align: left;
+    position: relative;
+  }
+  
+  .yellow-line {
+    width: 25px;
+    height: 100%;
+    background-color: #f5a100;
+    margin-right: 10px;
+  }
+  
+  .work-card-content h3 {
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: #014d4f;
+    margin-bottom: 10px;
+  }
+  
+  .work-card-content p {
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
+  .contact-btn-wrapper {
+    margin-top: 50px;
+  }
+  
+  .contact-btn {
+    background-color: #f5a100;
+    color: #014d4f;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: all 0.3s;
+  }
+  
+  .contact-btn:hover {
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 768px) {
+    .workwithus-heading {
+      font-size: 2rem;
+      text-align: center;
+    }
+  
+    .work-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .work-card-content h3 {
+      font-size: 1.5rem;
+    }
+  
+    .work-card-content p {
+      font-size: 0.9rem;
+    }
+  }
+  

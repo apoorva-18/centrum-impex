@@ -1,0 +1,9 @@
+/* *{
+  background-color: black;
+} */
+body{
+  color: beige;
+}
+html, body {
+  overflow-x: hidden;
+}
