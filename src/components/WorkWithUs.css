@@ -87,5 +87,21 @@
     .work-card-content p {
       font-size: 0.9rem;
     }
+    .workwithus-heading {
+      padding-top: 30px;
+      text-align: center;
+      font-size: 2rem;
+
+    }
+    .work-cards {
+      display: block;
+      width: 300px;
+    }
+    /* .yellow-line {
+      width: 20px;
+      height: 100%;
+
+
+    } */
   }
   

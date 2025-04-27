@@ -115,4 +115,9 @@
   .greener-bottom-text h1 {
     font-size: 1.3rem;
   }
+  .events-right{
+    display: block;
+    width: 300px;
+    height: 400px;
+  }
 }

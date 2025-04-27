@@ -83,10 +83,10 @@
   @media (max-width: 400px) {
     .nav-links {
       position: absolute;
-      top: 80px;
+      top: 30px;
       left: 0;
       right: 0;
-      background: transparent;
+      background: #0e6d7d;
       flex-direction: column;
       gap: 20px;
       align-items: center;
@@ -95,6 +95,9 @@
       transition: transform 0.5s ease;
       opacity: 0;
       pointer-events: none;
+    }
+    .nav-links ul li a {
+      color: #193e3c;
     }
     .logo{
       width: 100%;

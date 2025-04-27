@@ -129,70 +129,55 @@
     font-size: 18px;
   }
   
-  /* Mobile responsiveness */
   @media (max-width: 768px) {
     .update-head {
-      flex-direction: column;
-      text-align: center;
-      padding: 20px;
+        gap: 20px;
     }
-  
+
     .events-heading {
-      font-size: 2.5rem;
+        font-size: 2.2rem;
     }
-  
+
     .para {
-      font-size: 1rem;
-      padding: 0 10px;
+        font-size: 0.95rem;
     }
-  
-    .events-container {
-      flex-direction: column;
-      align-items: center;
-      padding: 0 20px;
+
+    .events-left, .events-right {
+        max-width: 100%;
+        padding: 0 10px;
     }
-  
+
     .event-slider img {
-      height: 300px;
+        max-height: 250px;
     }
-  
+
     .custom-arrow.prev {
-      left: -15px;
+        left: 10px;
     }
-  
+
     .custom-arrow.next {
-      right: -15px;
+        right: 10px;
     }
-  }
-  
-  /* Mobiles - below 400px */
-  @media (max-width: 400px) {
-    .update-head {
-      gap: 20px;
-      padding: 10px;
-    }
-  
+}
+
+@media (max-width: 400px) {
     .events-heading {
-      font-size: 2rem;
+        font-size: 2rem;
     }
-  
+
     .para {
-      font-size: 0.9rem;
+        font-size: 0.9rem;
     }
-  
+
     .event-title h3 {
-      font-size: 1rem;
+        font-size: 1rem;
     }
-  
+
     .slider-page {
-      font-size: 1rem;
+        font-size: 1rem;
     }
-  
-    .event-slider img {
-      height: 250px;
-    }
-  
+
     .custom-arrow {
-      padding: 6px;
+        font-size: 20px;
     }
-  }
+}

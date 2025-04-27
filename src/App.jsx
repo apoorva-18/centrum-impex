@@ -11,6 +11,7 @@ import WhatWeDo from './components/WhatWeDo';
 import GreenerTomorrow from './components/GreenerTomorrow';
 import WorkWithUs from './components/WorkWithUs';
 import EventsUpdates from './components/EventsUpdates';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <GreenerTomorrow/>
       <WorkWithUs/>
       <EventsUpdates/>
+      <Footer/>
     
       
     </>
