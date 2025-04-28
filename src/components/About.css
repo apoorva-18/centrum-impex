@@ -107,7 +107,8 @@
     }
   
     .scrap-background {
-      max-height: 250px;
+      width: fit-content;
+      object-fit: contain;
     }
   }
   

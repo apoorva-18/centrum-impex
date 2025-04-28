@@ -1,9 +1,7 @@
 import React from "react";
 import "./Footer.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import fb from '../assets/fb.png';
 import ld from '../assets/ld.png';
-
 import tw from '../assets/tw.png';
 
 
