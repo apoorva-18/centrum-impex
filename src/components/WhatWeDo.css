@@ -104,15 +104,15 @@
       font-size: 1.8rem;
     }
     .whatwedo-subtext{
-      width: 350px;
+      width: 600px;
       text-align: justify;
     }
     .whatwedo-slider{
-      width: 450px;
+      width: 550px;
       height: 500px;
     }
     .whatwedo-card {
-      width: 300px;
+      width: 400px;
       height: 400px;
     }
     .card-image-wrapper img {
@@ -135,11 +135,11 @@
       text-align: justify;
     }
     .whatwedo-slider{
-      width: 350px;
+      width: 300px;
       height: 500px;
     }
     .whatwedo-card {
-      width: 250px;
+      width: 300px;
       height: 400px;
     }
     .card-image-wrapper img {
