@@ -7,7 +7,7 @@
   .update-head{
     display: flex;
     gap: 90px;
-    max-width: 1400px;
+    max-width: 1500px;
     margin: auto;
   }
 
@@ -30,19 +30,21 @@
     color: #f5a100;
   }
   .para{
-    line-height: 1.7;
+    font-size: 1.2rem;
+    line-height: 1.9;
     max-width: 900px;
   }
   .events-container {
     display: flex;
-    gap: 40px;
-    width: 1400px;
+    gap: 50px;
+    width: 1450px;
+    max-width: 1600px;
     flex-wrap: wrap;
   }
   
   .events-left, .events-right {
     flex: 1;
-    min-width: 100px;
+    min-width: 200px;
   }
   
   .event-card {
