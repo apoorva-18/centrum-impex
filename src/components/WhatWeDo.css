@@ -108,11 +108,11 @@
       text-align: justify;
     }
     .whatwedo-slider{
-      width: 550px;
+      width: 400px;
       height: 500px;
     }
     .whatwedo-card {
-      width: 400px;
+      width: auto;
       height: 400px;
     }
     .card-image-wrapper img {
