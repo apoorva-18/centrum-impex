@@ -93,54 +93,155 @@
   
   /* Responsive for Mobile */
   @media (max-width: 768px) {
-    .aboutus-text {
-      width: 90%;
+    .aboutus-section {
+      position: relative;
+      width: 50%;
+      background-color: #fefcf7;
+      padding: 20px 20px;
+      overflow: hidden;
+      display: block;
+      
+      align-items: center;
+      text-align: left;
     }
-  
+    .aboutus-text {
+      text-align: center;
+      width: 55%;
+    }
+    .aboutus-content {
+      margin-top: 10px;
+      max-width: 1100px;
+      width: auto;
+      z-index: 1;
+      display: block;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 70px;
+      
+    }
+    .aboutus-div{
+      display: block;
+      margin-right: 50px;
+      padding-right: 30px;
+    }
     .aboutus-text h2 {
-      font-size: 2.2rem;
+      text-align: center;
+      font-size: 2em;
     }
   
     .aboutus-text p {
-      font-size: 1.05rem;
-      text-align: center;
-    }
-  
-    .scrap-background {
-      width: fit-content;
-      object-fit: contain;
-    }
-  }
-  
-  /* Responsive for Mobile */
-  @media (max-width: 400px) {
-    .aboutus-text {
-      text-align: center;
-      width: 95%;
-    }
-    .aboutus-content{
-      width: 100px;
-    }
-  
-    .aboutus-text h2 {
-      text-align: center;
-      font-size: 1.8rem;
-    }
-  
-    .aboutus-text p {
-      text-align: center;
-      font-size: 0.95rem;
+      width: auto;
+      text-align: justify;
+      font-size: 1rem;
       justify-items: center;
     }
   
     .know-more-btn {
       font-size: 0.9rem;
       padding: 10px 25px;
+      text-align: center;
+      align-items: center;
+      background-color: #ffc107;
+      color: #004d40;
+      font-weight: 700;
+      font-size: 1rem;
+      padding: 12px 30px;
+      border: none;
+      cursor: pointer;
+      border-radius: 2px;
+      margin-bottom: 30px;
+      transition: all 0.3s ease;
+    }
+    .know-more-btn:hover {
+      transform: scale(1.05);
     }
   
     .scrap-background {
-      width: 200px;
-      height: 120px;
+      position: absolute;
+      bottom: 0;
+      right: -100px;
+      width: auto;
+      z-index: 1;
+      transform: translateY(50px);
+      opacity: 0;
+      transition: all 1.1s ease;
+    }
+  }
+  
+  /* Responsive for Mobile */
+  @media (max-width: 400px) {
+    .aboutus-section {
+      position: relative;
+      width: 50%;
+      background-color: #fefcf7;
+      padding: 20px 20px;
+      overflow: hidden;
+      display: block;
+      
+      align-items: center;
+      text-align: left;
+    }
+    .aboutus-text {
+      text-align: center;
+      width: 55%;
+    }
+    .aboutus-content {
+      margin-top: 10px;
+      max-width: 1100px;
+      width: auto;
+      z-index: 1;
+      display: block;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 70px;
+      
+    }
+    .aboutus-div{
+      display: block;
+      margin-right: 50px;
+      padding-right: 30px;
+    }
+    .aboutus-text h2 {
+      text-align: center;
+      font-size: 2em;
+    }
+  
+    .aboutus-text p {
+      width: auto;
+      text-align: justify;
+      font-size: 1rem;
+      justify-items: center;
+    }
+  
+    .know-more-btn {
+      font-size: 0.9rem;
+      padding: 10px 25px;
+      text-align: center;
+      align-items: center;
+      background-color: #ffc107;
+      color: #004d40;
+      font-weight: 700;
+      font-size: 1rem;
+      padding: 12px 30px;
+      border: none;
+      cursor: pointer;
+      border-radius: 2px;
+      margin-bottom: 30px;
+      transition: all 0.3s ease;
+    }
+    .know-more-btn:hover {
+      transform: scale(1.05);
+    }
+  
+    .scrap-background {
+      position: absolute;
+      bottom: 0;
+      right: 50px;
+      width: auto;
+      z-index: 1;
+      transform: translateY(50px);
+      opacity: 0;
+      transition: all 1.1s ease;
     }
   }
   

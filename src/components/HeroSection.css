@@ -48,26 +48,39 @@
   font-size: 1rem;
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .hero-container {
-    width: 100%;
+    position: relative;
+    width: 768PX;
     height: 100vh;
   }
 
   .hero-overlay {
-    padding: 20px;
-    margin: 50px 20px;
-    text-align: center;
+    padding: 10px;
+    margin: 100px 20px;
+    text-align: justify;
+    justify-content: center;
+    align-items: left;
   }
 
   .hero-overlay h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .hero-overlay p {
+    font-size: 0.8rem;
+  }
+  .hero-btn {
+    background-color: #f7b618;
+    color: #000;
+    padding: 10px 20px;
+    font-weight: bold;
+    border:none;
+    border-radius: 1px;
+    cursor: pointer;
     font-size: 1rem;
   }
-} */
+}
 
 @media (max-width: 400px) {
   .hero-overlay h1 {

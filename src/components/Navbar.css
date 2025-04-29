@@ -80,7 +80,7 @@
   transition: all 0.3s ease;
 }
 
-  @media (max-width: 400px) {
+  @media (max-width: 768px) {
     .nav-links {
       position: absolute;
       top: 30px;
